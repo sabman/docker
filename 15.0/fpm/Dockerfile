@@ -1,5 +1,5 @@
 # DO NOT EDIT: created by update.sh from Dockerfile-debian.template
-FROM php:7.2-fpm-stretch
+FROM php:7.3.27-fpm-stretch
 
 # entrypoint.sh and cron.sh dependencies
 RUN set -ex; \
